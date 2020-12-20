@@ -32,7 +32,7 @@ let b:did_indent = 1
 setlocal nolisp
 setlocal autoindent
 setlocal indentexpr=GetPythonPEPIndent(v:lnum)
-setlocal indentkeys=!^F,o,O,<:>,0),0],0},=elif,=except
+setlocal indentkeys=!^F,o,O,0),0],0},=elif,=except
 
 if !exists('g:python_pep8_indent_multiline_string')
     let g:python_pep8_indent_multiline_string = 0
