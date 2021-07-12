@@ -316,6 +316,8 @@ syn cluster moonAll contains=moonStatement,moonRepeat,moonConditional,
 \                              moonDotAccess,
 \                              moonCurlies
 
+syntax sync fromstart
+
 if !exists('b:current_syntax')
   let b:current_syntax = 'moon'
 endif
